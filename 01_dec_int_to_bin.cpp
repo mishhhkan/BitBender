@@ -32,10 +32,5 @@ int main() {
 
     cout << "В 2 СС: " << bin << endl;
 
-    string padded = string(bits - bin.length(), '0') + bin;
-    if (bin.length() < bits) {
-        cout << "Дополнено до " << bits << " бит: " << padded << endl;
-    }
-
     return 0;
 }
