@@ -28,6 +28,7 @@ int main() {
     // Основной рабочий блок
     string number_bin; // Итоговое число в 2 СС
     int step = 1; // Счетчик шагов
+    // Пока десятичное число number_int > 0
     while (number_int > 0) {
         int ost = number_int % 2; // Вычисление остатка от деления на 2
         number_bin = to_string(ost) + number_bin; // Добавление остатка в начало строки
